@@ -678,6 +678,10 @@
 
 
 @media all and (max-width:1184px){
+    #header #headerin{
+        width: 1184px;
+        margin: 0 auto;
+    }
     #pet_list .pet_list_in .pet_img{
         width: 870px;
 }
@@ -686,6 +690,7 @@
     background-size: 1000px auto;
     width: 1000px; height: 2010px;
     margin: 0 auto;
+    background-color: #bb1529;
     }
     #pet_list .pet_list_in .pet_img ul{
     display: flex;
@@ -1212,7 +1217,7 @@
         width: 640px;
         margin: 0 auto;
     }
-    #header #headerin .logo{
+    #header #headerin .logo{ 
         display: block;
         text-align: left;
         padding-left: 20px;
